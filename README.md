@@ -1,21 +1,48 @@
-<h1># These are all of my projects until now.</h1>
-<h2>Account</h2> 
-It's a basic admin account with admin123 as the password.
-<br>
-<h2>Api connect </h2>
-It's my frst API connecting project .
-<br>
-<h2>Calculator</h2>
-It's an Calculator the operators like +,-,/,*. I used if/else and elif statemenst for it and after i master python i will add a ui to it .
-<br>
-<h2>Circle</h2>
-It just Calculates the radius of a  circle .
-<br>
-<h2>Rectangle</h2>
-it just calculates the area and prients the perimeter of the rectangle.
-<br>
-<h2>Class</h2
-It calculates the marks of 5 subjects and gives the totla marks and total percentage.And it is same as <h3>Grade</h3>
-<br>
+# My Python Projects
 
+A growing collection of scripts I've built while learning Python — from calculators to APIs.
 
+![Python](https://img.shields.io/badge/Python-beginner%20→%20intermediate-blue)
+![Status](https://img.shields.io/badge/status-active-green)
+
+> I'm learning Python from scratch. These projects are small but intentional — each one taught me something new. I'll keep adding to this as I improve.
+
+---
+
+## Projects
+
+### Math & Tools
+
+| Project | Description |
+|---|---|
+| **Calculator** | Supports +, −, ×, ÷ using if/elif control flow. *Roadmap: add a Tkinter GUI.* |
+| **nCircle** | Calculates the radius of a circle from user input. |
+| **Rectangle** | Computes the area and perimeter of a rectangle. |
+
+### Academic
+
+| Project | Description |
+|---|---|
+| **Class** | Takes marks for 5 subjects and returns total marks and percentage. |
+| **Grade** | Calculates a letter grade and average from entered scores. |
+
+### Other
+
+| Project | Description |
+|---|---|
+| **Account** | Basic admin login with hardcoded credentials. *(Early experiment — not secure by design.)* |
+| **API Connect** | My first project connecting to an external API. |
+| **Tree** | A personal family tree mapping my ancestry in Python. |
+
+---
+
+## Skills practiced
+
+`if/elif/else` · `arithmetic operators` · `user input` · `string formatting` · `basic data structures` · `API requests`
+
+## What's next
+
+- [ ] Add a Tkinter GUI to the Calculator
+- [ ] Add try/except error handling across all scripts
+- [ ] Secure the Account project with hashed passwords
+- [ ] Explore Flask for web-based versions of these tools
