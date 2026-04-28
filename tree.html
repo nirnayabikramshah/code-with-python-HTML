@@ -1,0 +1,357 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <audio id="bgmusic" loop>
+  <source src="bg.mp3" type="audio/mpeg">
+</audio>
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Shah Dynasty Family Tree — Dhankuta Branch</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,sans-serif;background:#f8f7f2;color:#1a1a18;padding:16px}
+h1{font-size:17px;font-weight:600;margin-bottom:3px}
+p.sub{font-size:12px;color:#5f5e5a;margin-bottom:14px}
+.legend{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:14px}
+.leg{display:flex;align-items:center;gap:6px;font-size:11px;color:#5f5e5a}
+.dot{width:11px;height:11px;border-radius:3px;flex-shrink:0}
+.tree-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+svg text{font-family:system-ui,sans-serif}
+.nb{cursor:pointer}
+.nb:hover rect{opacity:.82}
+#tt{position:fixed;background:#fff;border:1.5px solid #ccc;border-radius:9px;padding:11px 14px;
+    font-size:12px;color:#1a1a18;max-width:230px;pointer-events:none;display:none;
+    z-index:999;line-height:1.65;box-shadow:0 4px 16px rgba(0,0,0,.12)}
+#tt.on{display:block}
+#tt strong{font-weight:600;font-size:13px;display:block;margin-bottom:3px}
+#tt .dt{color:#888;font-size:11px;margin-bottom:4px}
+</style>
+</head>
+<body>
+
+<h1>Royal House of Shah — Trailokya Bikram Shah &amp; the Dhankuta Branch</h1>
+<p class="sub">Lineage from Prithvi Narayan Shah · Click any name for details</p>
+
+
+
+<div class="legend">
+  <div class="leg"><div class="dot" style="background:#3C3489"></div>King of Nepal</div>
+  <div class="leg"><div class="dot" style="background:#185FA5"></div>Crown Prince / Prince</div>
+  <div class="leg"><div class="dot" style="background:#27500A"></div>Dhankuta branch</div>
+  <div class="leg"><div class="dot" style="background:#BA7517"></div>My Line</div>
+</div>
+
+<div id="tt"></div>
+<div class="tree-wrap">
+<svg width="100%" viewBox="0 0 900 1780" id="ftree">
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+    <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+</defs>
+
+<!-- ===== TIER 0: Prithvi Narayan ===== -->
+<g class="nb" onclick="tip(event,'Prithvi Narayan Shah','r. 1743–1775','Founder and unifier of modern Nepal. Conquered the Kathmandu Valley 1768–69. Ancestor of all Shah monarchs.')">
+  <rect x="330" y="20" width="240" height="52" rx="8" fill="#3C3489" stroke="#26215C" stroke-width="0.5"/>
+  <text x="450" y="41" text-anchor="middle" font-size="13" font-weight="600" fill="#EEEDFE">Prithvi Narayan Shah</text>
+  <text x="450" y="58" text-anchor="middle" font-size="11" fill="#AFA9EC">King of Nepal · r. 1743–1775</text>
+</g>
+<line x1="450" y1="72" x2="450" y2="96" stroke="#888" stroke-width="1" marker-end="url(#arr)"/>
+
+<!-- TIER 1 -->
+<g class="nb" onclick="tip(event,'Pratap Singh Shah','r. 1775–1777','Son of Prithvi Narayan. Died aged 26. His infant son Rana Bahadur succeeded him.')">
+  <rect x="330" y="97" width="240" height="52" rx="8" fill="#3C3489" stroke="#26215C" stroke-width="0.5"/>
+  <text x="450" y="118" text-anchor="middle" font-size="13" font-weight="600" fill="#EEEDFE">Pratap Singh Shah</text>
+  <text x="450" y="135" text-anchor="middle" font-size="11" fill="#AFA9EC">King of Nepal · r. 1775–1777</text>
+</g>
+<line x1="450" y1="149" x2="450" y2="173" stroke="#888" stroke-width="1" marker-end="url(#arr)"/>
+
+<!-- TIER 2 -->
+<g class="nb" onclick="tip(event,'Rana Bahadur Shah','r. 1777–1799 · d. 1806','Ascended aged 2½. Exiled to Varanasi during turbulent reign. Assassinated 1806.')">
+  <rect x="330" y="174" width="240" height="52" rx="8" fill="#3C3489" stroke="#26215C" stroke-width="0.5"/>
+  <text x="450" y="195" text-anchor="middle" font-size="13" font-weight="600" fill="#EEEDFE">Rana Bahadur Shah</text>
+  <text x="450" y="212" text-anchor="middle" font-size="11" fill="#AFA9EC">King of Nepal · r. 1777–1799</text>
+</g>
+<line x1="450" y1="226" x2="450" y2="250" stroke="#888" stroke-width="1" marker-end="url(#arr)"/>
+
+<!-- TIER 3 -->
+<g class="nb" onclick="tip(event,'Girvan Yuddha Bikram Shah','r. 1799–1816','Died of smallpox aged 19. Reigned during Anglo-Nepalese War; Treaty of Sugauli signed 1816.')">
+  <rect x="330" y="251" width="240" height="52" rx="8" fill="#3C3489" stroke="#26215C" stroke-width="0.5"/>
+  <text x="450" y="272" text-anchor="middle" font-size="13" font-weight="600" fill="#EEEDFE">Girvan Yuddha Bikram Shah</text>
+  <text x="450" y="289" text-anchor="middle" font-size="11" fill="#AFA9EC">King of Nepal · r. 1799–1816</text>
+</g>
+<line x1="450" y1="303" x2="450" y2="327" stroke="#888" stroke-width="1" marker-end="url(#arr)"/>
+
+<!-- TIER 4 -->
+<g class="nb" onclick="tip(event,'Rajendra Bikram Shah','r. 1816–1847','Ascended aged ~3. Real power seized by Rana oligarchy after Kot Massacre (1846). Deposed and imprisoned.')">
+  <rect x="330" y="328" width="240" height="52" rx="8" fill="#3C3489" stroke="#26215C" stroke-width="0.5"/>
+  <text x="450" y="349" text-anchor="middle" font-size="13" font-weight="600" fill="#EEEDFE">Rajendra Bikram Shah</text>
+  <text x="450" y="366" text-anchor="middle" font-size="11" fill="#AFA9EC">King of Nepal · r. 1816–1847</text>
+</g>
+<line x1="450" y1="380" x2="450" y2="404" stroke="#888" stroke-width="1" marker-end="url(#arr)"/>
+
+<!-- TIER 5 -->
+<g class="nb" onclick="tip(event,'Surendra Bikram Shah','r. 1847–1881 · b. 1829 d. 1881','Son of Rajendra. Reigned as figurehead while Rana PMs held real power. Died 3 years after Crown Prince Trailokya.')">
+  <rect x="330" y="405" width="240" height="52" rx="8" fill="#3C3489" stroke="#26215C" stroke-width="0.5"/>
+  <text x="450" y="426" text-anchor="middle" font-size="13" font-weight="600" fill="#EEEDFE">Surendra Bikram Shah</text>
+  <text x="450" y="443" text-anchor="middle" font-size="11" fill="#AFA9EC">King of Nepal · r. 1847–1881</text>
+</g>
+<line x1="450" y1="457" x2="450" y2="481" stroke="#888" stroke-width="1" marker-end="url(#arr)"/>
+
+<!-- TIER 6: Trailokya + siblings -->
+<line x1="280" y1="507" x2="620" y2="507" stroke="#888" stroke-width="0.8"/>
+<line x1="450" y1="481" x2="450" y2="507" stroke="#888" stroke-width="1"/>
+<line x1="450" y1="507" x2="450" y2="527" stroke="#888" stroke-width="0.8"/>
+<line x1="280" y1="507" x2="280" y2="527" stroke="#888" stroke-width="0.8"/>
+<line x1="620" y1="507" x2="620" y2="527" stroke="#888" stroke-width="0.8"/>
+
+<g class="nb" onclick="tip(event,'Crown Prince Trailokya Bir Bikram Shah','b. 30 Nov 1847 · d. 30 Mar 1878','Eldest son of King Surendra. Died before his father, believed poisoned. Had 7+ sons ')">
+  <rect x="360" y="528" width="180" height="64" rx="8" fill="#185FA5" stroke="#0C447C" stroke-width="1"/>
+  <text x="450" y="548" text-anchor="middle" font-size="12" font-weight="600" fill="#E6F1FB">Crown Prince Trailokya</text>
+  <text x="450" y="563" text-anchor="middle" font-size="11" fill="#B5D4F4">Bir Bikram Shah</text>
+  <text x="450" y="578" text-anchor="middle" font-size="10" fill="#85B7EB">b. 1847 · d. 1878</text>
+</g>
+
+<g class="nb" onclick="tip(event,'Prince Narendra Bikram Shah','b. Dec 1848 · d. before 1901','Younger brother of Trailokya. Exiled to Chunar (India) 1882–85. Had 9 sons.')">
+  <rect x="186" y="533" width="155" height="52" rx="8" fill="#185FA5" stroke="#0C447C" stroke-width="0.5" opacity="0.65"/>
+  <text x="264" y="554" text-anchor="middle" font-size="11" font-weight="500" fill="#E6F1FB">Prince Narendra</text>
+  <text x="264" y="568" text-anchor="middle" font-size="11" fill="#B5D4F4">Bikram Shah</text>
+  <text x="264" y="582" text-anchor="middle" font-size="10" fill="#85B7EB">b. Dec 1848</text>
+</g>
+
+<g class="nb" onclick="tip(event,'Another Prince','b. 22 Sep 1851','Third son of King Surendra. Less documented in public records.')">
+  <rect x="526" y="533" width="155" height="52" rx="8" fill="#185FA5" stroke="#0C447C" stroke-width="0.5" opacity="0.45"/>
+  <text x="604" y="554" text-anchor="middle" font-size="11" font-weight="500" fill="#E6F1FB">Another Prince</text>
+  <text x="604" y="570" text-anchor="middle" font-size="10" fill="#85B7EB">b. 22 Sep 1851</text>
+</g>
+
+<text x="450" y="606" text-anchor="middle" font-size="10" fill="#888">m. (1) Tara Rajya Lakshmi  (2) Lalit Rajeshwori  (3) Somgarva Divyeshwari — all daughters of PM Jung Bahadur Rana</text>
+
+<!-- Trailokya → children -->
+<line x1="450" y1="592" x2="450" y2="626" stroke="#888" stroke-width="1"/>
+<line x1="100" y1="626" x2="740" y2="626" stroke="#888" stroke-width="0.8"/>
+<line x1="100" y1="626" x2="100" y2="646" stroke="#27500A" stroke-width="1"/>
+<line x1="360" y1="626" x2="360" y2="646" stroke="#27500A" stroke-width="1"/>
+<line x1="450" y1="626" x2="450" y2="646" stroke="#27500A" stroke-width="1"/>
+<line x1="560" y1="626" x2="560" y2="646" stroke="#888" stroke-width="0.8"/>
+<line x1="650" y1="626" x2="650" y2="646" stroke="#888" stroke-width="0.8"/>
+<line x1="740" y1="626" x2="740" y2="646" stroke="#888" stroke-width="0.8"/>
+
+<!-- Prithvi Bir (King) -->
+<g class="nb" onclick="tip(event,'Prithvi Bir Bikram Shah','r. 1881–1911 · b. 1875 d. 1911','Son of Trailokya by Walet Kancha Maharani Lalita. Ascended aged 6. His brothers were all exiled to prevent coups.')">
+  <rect x="400" y="647" width="140" height="52" rx="7" fill="#3C3489" stroke="#26215C" stroke-width="0.5"/>
+  <text x="470" y="667" text-anchor="middle" font-size="11" font-weight="600" fill="#EEEDFE">Prithvi Bir</text>
+  <text x="470" y="681" text-anchor="middle" font-size="11" fill="#EEEDFE">Bikram Shah</text>
+  <text x="470" y="694" text-anchor="middle" font-size="9" fill="#AFA9EC">King r. 1881–1911</text>
+</g>
+
+<!-- Yaksha — your root -->
+<g class="nb" onclick="tip(event,'Yaksha Bikram Shah (Jetha Sri Sahebju)','Exiled to Dhankuta 1890 · d. after 1923','Second son of Crown Prince Trailokya (by concubine). Exiled to Dhankuta 1890. Had 8 documented sons.')">
+  <rect x="22" y="647" width="148" height="60" rx="8" fill="#27500A" stroke="#173404" stroke-width="0.8"/>
+  <text x="96" y="663" text-anchor="middle" font-size="11" font-weight="600" fill="#EAF3DE">Yaksha Bikram Shah</text>
+  <text x="96" y="677" text-anchor="middle" font-size="10" fill="#C0DD97">Jetha Sri Sahebju (c)</text>
+  <text x="96" y="691" text-anchor="middle" font-size="10" fill="#97C459">Exiled → Dhankuta 1890</text>
+</g>
+
+<g class="nb" onclick="tip(event,'Gajendra Bikram Shah','Exiled to Dhankuta 1890','Son of Crown Prince Trailokya. Exiled alongside Yaksha to Dhankuta.')">
+  <rect x="318" y="647" width="76" height="52" rx="6" fill="#27500A" stroke="#173404" stroke-width="0.5" opacity="0.75"/>
+  <text x="356" y="663" text-anchor="middle" font-size="10" font-weight="500" fill="#EAF3DE">Gajendra</text>
+  <text x="356" y="676" text-anchor="middle" font-size="10" fill="#C0DD97">Bikram Shah</text>
+  <text x="356" y="690" text-anchor="middle" font-size="9" fill="#97C459">Dhankuta</text>
+</g>
+
+<g class="nb" onclick="tip(event,'Bir Bikram Shah (Thahila)','Exiled to Palpa Gauda 1890 · d. after 1923','Son of Trailokya. Chair of Advisory Assembly 1951. Had 7 sons.')">
+  <rect x="546" y="647" width="80" height="52" rx="6" fill="#185FA5" stroke="#0C447C" stroke-width="0.5" opacity="0.7"/>
+  <text x="586" y="663" text-anchor="middle" font-size="10" font-weight="500" fill="#E6F1FB">Bir Bikram</text>
+  <text x="586" y="676" text-anchor="middle" font-size="10" fill="#B5D4F4">Shah</text>
+  <text x="586" y="690" text-anchor="middle" font-size="9" fill="#85B7EB">Palpa</text>
+</g>
+
+<g class="nb" onclick="tip(event,'Jharendra Bikram Shah (Kahila)','Exiled to Palpa Gauda 1890 · d. after 1923','Son of Trailokya. Had 6 sons including Purendra Bikram Shah — Minister of Defence 1956–59.')">
+  <rect x="638" y="647" width="80" height="52" rx="6" fill="#185FA5" stroke="#0C447C" stroke-width="0.5" opacity="0.6"/>
+  <text x="678" y="663" text-anchor="middle" font-size="10" font-weight="500" fill="#E6F1FB">Jharendra</text>
+  <text x="678" y="676" text-anchor="middle" font-size="10" fill="#B5D4F4">Bikram Shah</text>
+  <text x="678" y="690" text-anchor="middle" font-size="9" fill="#85B7EB">Palpa</text>
+</g>
+
+<g class="nb" onclick="tip(event,'Rana Bikram Shah (Sahila)','Exiled to Palpa Gauda 1890','Son of Trailokya. Had one son: Trilochan Bikram Shah.')">
+  <rect x="730" y="647" width="80" height="52" rx="6" fill="#185FA5" stroke="#0C447C" stroke-width="0.5" opacity="0.5"/>
+  <text x="770" y="663" text-anchor="middle" font-size="10" font-weight="500" fill="#E6F1FB">Rana Bikram</text>
+  <text x="770" y="676" text-anchor="middle" font-size="10" fill="#B5D4F4">Shah</text>
+  <text x="770" y="690" text-anchor="middle" font-size="9" fill="#85B7EB">Palpa</text>
+</g>
+
+<!-- ===== YAKSHA'S 8 SONS ===== -->
+<line x1="96" y1="707" x2="96" y2="740" stroke="#27500A" stroke-width="1"/>
+<line x1="28"  y1="740" x2="575" y2="740" stroke="#27500A" stroke-width="0.8"/>
+<line x1="28"  y1="740" x2="28"  y2="760" stroke="#27500A" stroke-width="0.8"/>
+<line x1="110" y1="740" x2="110" y2="760" stroke="#BA7517" stroke-width="2"/>
+<line x1="192" y1="740" x2="192" y2="760" stroke="#27500A" stroke-width="0.8"/>
+<line x1="274" y1="740" x2="274" y2="760" stroke="#27500A" stroke-width="0.8"/>
+<line x1="356" y1="740" x2="356" y2="760" stroke="#27500A" stroke-width="0.8"/>
+<line x1="438" y1="740" x2="438" y2="760" stroke="#27500A" stroke-width="0.8"/>
+<line x1="506" y1="740" x2="506" y2="760" stroke="#27500A" stroke-width="0.8"/>
+<line x1="574" y1="740" x2="574" y2="760" stroke="#27500A" stroke-width="0.8"/>
+
+<!-- Son 1: Lalit -->
+<g class="nb" onclick="tip(event,'Lalit Bikram Shah','1st son of Yaksha Bikram Shah','Dhankuta branch. No further public records.')">
+  <rect x="6"  y="761" width="64" height="42" rx="5" fill="#27500A" stroke="#173404" stroke-width="0.5"/>
+  <text x="38" y="778" text-anchor="middle" font-size="9" fill="#C0DD97">Lalit</text>
+  <text x="38" y="792" text-anchor="middle" font-size="9" fill="#97C459">Bikram Shah</text>
+</g>
+
+<!-- Son 2: Krishna — YOUR BRANCH ★ -->
+<g class="nb" onclick="tip(event,'Krishna Bikram Shah ★','2nd son of Yaksha Bikram Shah · Dhankuta branch','Son of Yaksha Bikram Shah, grandson of Crown Prince Trailokya. Settled in the Dhankuta region after the 1890 exile. Father of Dorna Bikram Shah.')">
+  <rect x="76" y="755" width="74" height="56" rx="6" fill="#BA7517" stroke="#633806" stroke-width="2"/>
+  <text x="113" y="771" text-anchor="middle" font-size="9" font-weight="700" fill="#FAEEDA">Krishna</text>
+  <text x="113" y="784" text-anchor="middle" font-size="9" fill="#FAEEDA">Bikram Shah</text>
+  <text x="113" y="797" text-anchor="middle" font-size="8" fill="#EF9F27">★ My BRANCH</text>
+</g>
+<rect x="74" y="753" width="78" height="60" rx="8" fill="none" stroke="#EF9F27" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.8"/>
+
+<!-- Son 3: Surya -->
+<g class="nb" onclick="tip(event,'Surya Bikram Shah','3rd son of Yaksha','Dhankuta branch.')">
+  <rect x="160" y="761" width="64" height="42" rx="5" fill="#27500A" stroke="#173404" stroke-width="0.5"/>
+  <text x="192" y="778" text-anchor="middle" font-size="9" fill="#C0DD97">Surya</text>
+  <text x="192" y="792" text-anchor="middle" font-size="9" fill="#97C459">Bikram Shah</text>
+</g>
+
+<!-- Son 4: Bishwa -->
+<g class="nb" onclick="tip(event,'Bishwa Bikram Shah','4th son of Yaksha','Dhankuta branch.')">
+  <rect x="242" y="761" width="64" height="42" rx="5" fill="#27500A" stroke="#173404" stroke-width="0.5"/>
+  <text x="274" y="778" text-anchor="middle" font-size="9" fill="#C0DD97">Bishwa</text>
+  <text x="274" y="792" text-anchor="middle" font-size="9" fill="#97C459">Bikram Shah</text>
+</g>
+
+<!-- Son 5: Padma (like your branch structure) -->
+<g class="nb" onclick="tip(event,'Padma Bikram Shah','5th son of Yaksha · Had 2 known sons','Sons: Indra Bikram Shah and Dakshya Bikram Shah. Line extends to Pratap (d.2007) and Binayak (b.1990).')">
+  <rect x="324" y="761" width="64" height="42" rx="5" fill="#27500A" stroke="#173404" stroke-width="0.5"/>
+  <text x="356" y="778" text-anchor="middle" font-size="9" fill="#C0DD97">Padma</text>
+  <text x="356" y="792" text-anchor="middle" font-size="9" fill="#97C459">Bikram Shah</text>
+</g>
+
+<!-- Son 6: Khadga -->
+<g class="nb" onclick="tip(event,'Khadga Bikram Shah','6th son of Yaksha','Dhankuta branch.')">
+  <rect x="406" y="761" width="64" height="42" rx="5" fill="#27500A" stroke="#173404" stroke-width="0.5"/>
+  <text x="438" y="778" text-anchor="middle" font-size="9" fill="#C0DD97">Khadga</text>
+  <text x="438" y="792" text-anchor="middle" font-size="9" fill="#97C459">Bikram Shah</text>
+</g>
+
+<!-- Son 7: Ram -->
+<g class="nb" onclick="tip(event,'Ram Bikram Shah','7th son of Yaksha · b. before 1923','Dhankuta branch.')">
+  <rect x="474" y="761" width="64" height="42" rx="5" fill="#27500A" stroke="#173404" stroke-width="0.5"/>
+  <text x="506" y="778" text-anchor="middle" font-size="9" fill="#C0DD97">Ram</text>
+  <text x="506" y="792" text-anchor="middle" font-size="9" fill="#97C459">Bikram Shah</text>
+</g>
+
+<!-- Son 8: Baldev -->
+<g class="nb" onclick="tip(event,'Baldev Bikram Shah','8th son of Yaksha · b. before 1923','Dhankuta branch.')">
+  <rect x="542" y="761" width="64" height="42" rx="5" fill="#27500A" stroke="#173404" stroke-width="0.5"/>
+  <text x="574" y="778" text-anchor="middle" font-size="9" fill="#C0DD97">Baldev</text>
+  <text x="574" y="792" text-anchor="middle" font-size="9" fill="#97C459">Bikram Shah</text>
+</g>
+
+<!-- ===== KRISHNA → DORNA ===== -->
+<line x1="113" y1="811" x2="113" y2="845" stroke="#BA7517" stroke-width="1.5"/>
+
+<g class="nb" onclick="tip(event,'Dorna Bikram Shah','Son of Krishna Bikram Shah · Dhankuta branch','Son of Krishna Bikram Shah. Raised in the Dhankuta region, continuing the exiled Shah line. Father of Ishwar Bikram Shah.')">
+  <rect x="43" y="846" width="140" height="56" rx="8" fill="#BA7517" stroke="#854F0B" stroke-width="1"/>
+  <text x="113" y="865" text-anchor="middle" font-size="12" font-weight="600" fill="#FAEEDA">Dorna Bikram Shah</text>
+  <text x="113" y="881" text-anchor="middle" font-size="10" fill="#FAC775">Son of Krishna</text>
+  <text x="113" y="895" text-anchor="middle" font-size="9" fill="#EF9F27">Dhankuta branch</text>
+</g>
+
+<!-- ===== DORNA → ISHWAR ===== -->
+<line x1="113" y1="902" x2="113" y2="936" stroke="#BA7517" stroke-width="1.5"/>
+
+<g class="nb" onclick="tip(event,'Ishwar Bikram Shah','Son of Dorna Bikram Shah · Dhankuta branch','Son of Dorna Bikram Shah. Grandson of Krishna, great-grandson of Yaksha. Father of Nirnaya Bikram Shah and Nirmand Bikram Shah.')">
+  <rect x="43" y="937" width="140" height="56" rx="8" fill="#BA7517" stroke="#854F0B" stroke-width="1"/>
+  <text x="113" y="956" text-anchor="middle" font-size="12" font-weight="600" fill="#FAEEDA">Ishwar Bikram Shah</text>
+  <text x="113" y="972" text-anchor="middle" font-size="10" fill="#FAC775">Son of Dorna</text>
+  <text x="113" y="986" text-anchor="middle" font-size="9" fill="#EF9F27">Dhankuta branch</text>
+</g>
+
+<!-- ===== ISHWAR → TWO SONS ===== -->
+<line x1="113" y1="993" x2="113" y2="1020" stroke="#BA7517" stroke-width="1.5"/>
+<line x1="60"  y1="1020" x2="166" y2="1020" stroke="#BA7517" stroke-width="1.2"/>
+<line x1="60"  y1="1020" x2="60"  y2="1040" stroke="#BA7517" stroke-width="1.2"/>
+<line x1="166" y1="1020" x2="166" y2="1040" stroke="#BA7517" stroke-width="1.2"/>
+
+<!-- Nirnaya -->
+<g class="nb" onclick="tip(event,'Nirnaya Bikram Shah','Son of Ishwar Bikram Shah · Dhankuta branch','Son of Ishwar Bikram Shah. Great-great-grandson of Krishna Bikram Shah. Part of the continuing Dhankuta Shah lineage descending from Crown Prince Trailokya.')">
+  <rect x="10" y="1041" width="130" height="56" rx="8" fill="#854F0B" stroke="#412402" stroke-width="1"/>
+  <text x="75" y="1060" text-anchor="middle" font-size="11" font-weight="600" fill="#FAEEDA">Nirnaya</text>
+  <text x="75" y="1075" text-anchor="middle" font-size="11" fill="#FAEEDA">Bikram Shah</text>
+  <text x="75" y="1089" text-anchor="middle" font-size="9" fill="#FAC775">Son of Ishwar</text>
+</g>
+
+<!-- Nirmand -->
+<g class="nb" onclick="tip(event,'Nirmand Bikram Shah','Son of Ishwar Bikram Shah · Dhankuta branch','Son of Ishwar Bikram Shah. Great-great-grandson of Krishna Bikram Shah. Part of the continuing Dhankuta Shah lineage descending from Crown Prince Trailokya.')">
+  <rect x="150" y="1041" width="130" height="56" rx="8" fill="#854F0B" stroke="#412402" stroke-width="1"/>
+  <text x="215" y="1060" text-anchor="middle" font-size="11" font-weight="600" fill="#FAEEDA">Nirmand</text>
+  <text x="215" y="1075" text-anchor="middle" font-size="11" fill="#FAEEDA">Bikram Shah</text>
+  <text x="215" y="1089" text-anchor="middle" font-size="9" fill="#FAC775">Son Of Ishwar</text>
+</g>
+
+<!-- ===== KING LINE CONTINUES (right side) ===== -->
+<line x1="470" y1="699" x2="470" y2="730" stroke="#888" stroke-width="1"/>
+<line x1="470" y1="730" x2="660" y2="730" stroke="#888" stroke-width="0.8"/>
+<line x1="660" y1="730" x2="660" y2="750" stroke="#888" stroke-width="0.8"/>
+
+<g class="nb" onclick="tip(event,'Tribhuvan Bir Bikram Shah','r. 1911–1955','Grandson of Crown Prince Trailokya (son of Prithvi Bir). Ended Rana rule in 1951. Beloved as founder of modern democratic Nepal.')">
+  <rect x="560" y="751" width="200" height="52" rx="8" fill="#3C3489" stroke="#26215C" stroke-width="0.5"/>
+  <text x="660" y="772" text-anchor="middle" font-size="11" font-weight="600" fill="#EEEDFE">Tribhuvan Bir Bikram Shah</text>
+  <text x="660" y="787" text-anchor="middle" font-size="10" fill="#AFA9EC">King · r. 1911–1955</text>
+</g>
+
+<line x1="660" y1="803" x2="660" y2="827" stroke="#888" stroke-width="1"/>
+<g class="nb" onclick="tip(event,'Mahendra Bir Bikram Shah','r. 1955–1972','Son of Tribhuvan. Established party-less Panchayat system 1960.')">
+  <rect x="560" y="828" width="200" height="52" rx="8" fill="#3C3489" stroke="#26215C" stroke-width="0.5"/>
+  <text x="660" y="849" text-anchor="middle" font-size="11" font-weight="600" fill="#EEEDFE">Mahendra Bir Bikram Shah</text>
+  <text x="660" y="864" text-anchor="middle" font-size="10" fill="#AFA9EC">King · r. 1955–1972</text>
+</g>
+
+<line x1="660" y1="880" x2="660" y2="904" stroke="#888" stroke-width="1"/>
+<g class="nb" onclick="tip(event,'Birendra Bir Bikram Shah','r. 1972–2001 · b. 1945 d. 2001','Killed in the royal palace massacre of 1 June 2001 along with most of the royal family.')">
+  <rect x="560" y="905" width="200" height="52" rx="8" fill="#3C3489" stroke="#26215C" stroke-width="0.5"/>
+  <text x="660" y="926" text-anchor="middle" font-size="11" font-weight="600" fill="#EEEDFE">Birendra Bir Bikram Shah</text>
+  <text x="660" y="941" text-anchor="middle" font-size="10" fill="#AFA9EC">King · r. 1972–2001</text>
+</g>
+
+<line x1="660" y1="957" x2="660" y2="981" stroke="#888" stroke-width="1"/>
+<g class="nb" onclick="tip(event,'Gyanendra Bir Bikram Shah','r. 2001–2008','Final king of Nepal. Monarchy abolished 28 May 2008. Nepal declared a Federal Democratic Republic.')">
+  <rect x="560" y="982" width="200" height="52" rx="8" fill="#534AB7" stroke="#3C3489" stroke-width="0.5"/>
+  <text x="660" y="1003" text-anchor="middle" font-size="11" font-weight="600" fill="#EEEDFE">Gyanendra Bir Bikram Shah</text>
+  <text x="660" y="1018" text-anchor="middle" font-size="10" fill="#AFA9EC">Last King · 2001–2008</text>
+</g>
+<rect x="560" y="1040" width="200" height="18" rx="4" fill="#534AB7" opacity="0.45"/>
+<text x="660" y="1053" text-anchor="middle" font-size="10" fill="#EEEDFE">Monarchy abolished 2008</text>
+
+</svg>
+</div>
+
+
+<script>
+  document.addEventListener('click', () => {
+  document.getElementById('bgmusic').play();
+}, { once: true });
+function tip(e, name, dates, note) {
+  const tt = document.getElementById('tt');
+  tt.innerHTML = '<strong>' + name + '</strong><div class="dt">' + dates + '</div><div>' + note + '</div>';
+  tt.classList.add('on');
+  const margin = 12;
+  let x = e.clientX + margin;
+  let y = e.clientY + margin;
+  if (x + 240 > window.innerWidth) x = e.clientX - 240 - margin;
+  if (y + 140 > window.innerHeight) y = e.clientY - 140 - margin;
+  tt.style.left = x + 'px';
+  tt.style.top  = y + 'px';
+}
+document.addEventListener('click', function(e) {
+  if (!e.target.closest('.nb')) document.getElementById('tt').classList.remove('on');
+});
+</script>
+</body>
+</html>
