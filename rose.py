@@ -2,8 +2,7 @@ import turtle as t
 
 screen =t.Screen()
 screen.bgcolor("Yellow")  
-t.color("Red")
-t.speed(0)      
+t.color("Red")      
 for i in range(150):
 
     t.forward(i * 1.2)
