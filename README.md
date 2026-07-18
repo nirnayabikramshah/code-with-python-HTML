@@ -113,5 +113,5 @@
 <hr>
 
 <div align="center">
-  <p><em>"The best way to predict the future is to code it."</em></p>
+  
 </div>
